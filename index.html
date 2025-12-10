@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Confess 💌</h1>
+        <p class="subtitle">Kirim pesan rahasia secara anonim</p>
+
+        <textarea id="confessInput" placeholder="Tulis pesanmu di sini..."></textarea>
+
+        <button onclick="sendConfess()">Kirim</button>
+    </div>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Pesan Terkirim 🎉</h2>
+            <p>Terima kasih telah mengirimkan confess.</p>
+            <button onclick="closePopup()">Tutup</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
